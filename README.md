@@ -12,7 +12,7 @@ When a matching broadcast is received, it shows up in the log with timestamp, ac
 - Export current actions to JSON
 - View a live log of received broadcasts (action, package, extras)
 - Share or clear the log easily
-- Minimal Material3 + Jetpack Compose UI
+- Prints logs of KeyEvents 
 
 ---
 
@@ -37,7 +37,7 @@ When a matching broadcast is received, it shows up in the log with timestamp, ac
 ## Notes
 
 - Since Android 8.0+, some system broadcasts cannot be received dynamically by third-party apps.  
-- Custom app broadcasts (from ADB or other apps you control) work fine.  
+- Custom app broadcasts (from ADB or other apps you control) work fine.
 
 ---
 
